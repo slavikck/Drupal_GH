@@ -1,3 +1,4 @@
-http://drupal.home
-db - drupal_home_1
-pass - admin
+http://drupal.home,
+db - drupal_home_1,
+nick - admin,
+pass - admin.

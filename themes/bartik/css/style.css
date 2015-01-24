@@ -29,8 +29,16 @@ h6 {
   font-weight: inherit;
 }
 h1 {
-  font-size: 1.357em;
-  color: #000;
+  text-align: center;
+  color: #4C7687;
+  font-family: "Trebuchet MS";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 4px;
+  padding: 0 0 8px;
+  position: relative;
+  z-index: 2;
 }
 h2 {
   font-size: 1.143em;
@@ -361,7 +369,9 @@ h1#site-name {
   border: 1px solid;
   border-color: #eee;
   border-color: rgba(255, 255, 255, 0.2);
-  padding: 0;
+  font-size: 0.929em;
+  margin: 0;
+  padding: 0 15px;
   width: 208px;
 }
 .region-header .block-menu li a {
@@ -471,7 +481,7 @@ h1#site-name {
   margin: 0 1px;
 }
 #main-menu-links a {
-  color: #333;
+  color: #396375;
   background: #ccc;
   background: rgba(255, 255, 255, 0.7);
   float: left; /* LTR */
@@ -480,17 +490,21 @@ h1#site-name {
   padding: 0 0.8em;
   text-decoration: none;
   text-shadow: 0 1px #eee;
+  font-weight: bold;
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  text-transform: uppercase;
   -khtml-border-radius-topleft: 8px;
   -khtml-border-radius-topright: 8px;
   -moz-border-radius-topleft: 8px;
   -moz-border-radius-topright: 8px;
   -webkit-border-top-left-radius: 8px;
   -webkit-border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+
 }
 #main-menu-links a:hover,
 #main-menu-links a:focus {
+  color: #e21d5d;
   background: #f6f6f2;
   background: rgba(255, 255, 255, 0.95);
 }
@@ -499,6 +513,7 @@ h1#site-name {
   background: rgba(255, 255, 255, 1);
 }
 #main-menu-links li a.active {
+  color: #e21d5d;
   border-bottom: none;
 }
 .featured #main-menu-links li a:active,
@@ -589,7 +604,7 @@ h1#page-title {
   padding-top: 0.5em;
 }
 .node-teaser h2 a {
-  color: #181818;
+  color: #EA2778;
 }
 .node-teaser {
   border-bottom: 1px solid #d3d7d9;
