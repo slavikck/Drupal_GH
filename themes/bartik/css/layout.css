@@ -23,6 +23,9 @@ body,
 }
 #header div.section {
   position: relative;
+    overflow: hidden;
+    height: 450px;
+
 }
 .region-header {
   float: right; /* LTR */
@@ -74,6 +77,7 @@ body,
 #content .section,
 .sidebar .section {
   padding: 0 15px;
+  margin: 0;
 }
 #breadcrumb {
   margin: 0 15px;

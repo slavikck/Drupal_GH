@@ -1,6 +1,6 @@
 body {
     margin: 0 !important;
-    background: url('/themes/bartik/images/header_bg.png') repeat-x center -342px #fff;
+    background: url('themes/geekhub/images/header_bg.png') repeat-x center -342px #fff;
     color: #4c7689;
 }
 
@@ -16,7 +16,7 @@ tbody {
 
 .site-header {
     height: 108px;
-    background: url('/themes/bartik/images/header_bg.png') repeat-x center -342px #fff;
+    background: url('themes/zen/images/header_bg.png') repeat-x center -342px #fff;
     color: #4c7689;
 }
 
@@ -39,12 +39,12 @@ tbody {
     margin: 0 auto;
     height: 271px;
     position: relative;
-    background: url("/themes/bartik/images/splash.png") no-repeat 315px 30px;
+    background: url("/sites/all/themes/zen/images/splash.png") no-repeat 315px 30px;
 }
 
 header#masthead.home-header {
     height: 450px;
-    background: url('/themes/bartik/images/header_bg.png') repeat-x top center  #fff;
+    background: url('/sites/all/themes/zen/images/header_bg.png') repeat-x top center  #fff;
 
 }
 
@@ -110,7 +110,7 @@ header#masthead.home-header {
     height: 46px;
     border: 0;
     outline: 0;
-    background: url("/themes/bartik/images/register_submit.png") center bottom no-repeat;
+    background: url("http://geekhub.ck.ua/images/register_submit.png") center bottom no-repeat;
     color: #fff;
     text-align: center;
     font-family: "Trebuchet MS";
@@ -171,7 +171,7 @@ div#main-menu.navigation li a {
 
 div#main-menu.navigation li a:active, .site-header #menu-geekhub li.current-menu-item a {
     t-align: center;
-    background: url('/themes/bartik/images/inner_active.png') center bottom no-repeat;
+    background: url('/sites/all/themes/zen/images/inner_active.png') center bottom no-repeat;
 }
 
 
@@ -194,7 +194,7 @@ div#main-menu.navigation li a:active, .site-header #menu-geekhub li.current-menu
     height: 42px;
     text-decoration: none;
     display: block;
-    background: url('/themes/bartik/images/icons_social.png') no-repeat;
+    background: url('images/icons_social.png') no-repeat;
     text-indent: -400px;
     color: #396375;
 }
@@ -700,7 +700,7 @@ aside ul {
     display: block;
     text-indent: -200px;
     overflow: hidden;
-    background: url("/themes/bartik/images/sponsors.png") no-repeat;
+    background: url("http://geekhub.ck.ua/images/sponsors.png") no-repeat;
 }
 
 #block-block-3 ul li.de a {
@@ -880,7 +880,7 @@ aside ul {
 #map {
     width: 415px;
     height: 334px;
-    background: url('/themes/bartik/images/map.png') no-repeat;
+    background: url('/wp-content/themes/twentyfourteen/images/map.png') no-repeat;
     padding-top: 17px;
     padding-left: 16px;
     margin-left: -350px;

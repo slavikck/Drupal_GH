@@ -81,7 +81,7 @@ ul.tips {
 /* --------------- Secondary Menu ------------ */
 
 #secondary-menu-links {
-  float: left;
+  float: right;
 }
 
 /* ----------------- Content ------------------ */
@@ -215,7 +215,7 @@ ul.action-links li a {
 .fieldset-legend span.summary {
   margin-left: 0;
 }
-#user-profile-form input#edit-submit {
+#user-profile-form input#efooit-submit {
   margin-left: 0;
 }
 .password-suggestions ul li {

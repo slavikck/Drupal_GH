@@ -1,0 +1,44 @@
+<?php
+
+    function weather_block_info() {
+
+        $blocks['weather'] = array(
+            'info' => t('Weather block'),
+            'cache' => DRUPAL_NO_CACHE,
+        );
+
+        return $blocks;
+    }
+
+    function weather_block_view($delta = '') {
+
+        switch($delta) {
+            case 'weather':
+            $block['subject'] = t('<strong style="color: #ffff00">Погода в Черкасах</strong>');
+            $block['content'] = '<a href="https://clck.yandex.ru/redir/dtype=stred/pid=7/cid=1228/*https://pogoda.yandex.ru/cherkassi" target="_blank"><img src="//info.weather.yandex.net/cherkassi/1.uk.png?domain=ua" border="0" alt="Яндекс.Погода"/><img width="1" height="1" src="https://clck.yandex.ru/click/dtype=stred/pid=7/cid=1227/*https://img.yandex.ru/i/pix.gif" alt="" border="0"/></a>';
+
+            break;
+        }
+
+        return $block;
+    }
+
+    function weather_content() {
+
+        $output = theme('che_template', array(
+            'variable' => 'Cherkasy'
+        ));
+
+        return $output;
+    }
+
+    function weather_theme() {
+
+        return array(
+            'che_template' => array(
+                'template' => 'weather_template',
+                'variables' => array(
+                    'variable' => 'Cherkasy' )
+            )
+        );
+    }

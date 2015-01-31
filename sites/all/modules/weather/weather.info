@@ -1,0 +1,6 @@
+name = weather
+description = The simple weather module.
+package = Fields
+core = 7.x
+files[] = weather.module
+version = "7.x-2.1"

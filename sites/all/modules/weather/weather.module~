@@ -1,0 +1,39 @@
+<?php
+
+    function weather_block_info() {
+        $blocks['weather'] = array(
+            'info' => t('Weather block')
+        );
+        return $blocks;
+
+    }
+
+    function weather_block_view($delta = '') {
+        switch($delta) {
+            case 'weather':
+
+            $block['subject'] = t('Current Weather');
+            $block['content'] = '<a href="http://rp5.ua/rss/811/ru"><img src="http://www.weather.ua/images/weatherXML_or.gif" border="0" width="99" height="17" alt="погода НАЗВАНИЕ ГОРОДА"></a>';
+
+            break;
+        }
+        return $block;
+    }
+
+    function weather_content() {
+
+        $output = theme('test_template', array(
+            'variable' => 'Cherkassy'
+        ));
+        return $output;
+    }
+
+    function weather_theme() {
+        return array(
+            'test_template' => array(
+                'template' => 'weather_template',
+                'variables' => array(
+                    'variable' => 'Vasia' )
+            )
+        );
+    }
