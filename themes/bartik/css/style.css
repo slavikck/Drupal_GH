@@ -1,3 +1,4 @@
+
 body {
     margin: 0 !important;
     background: url('/themes/bartik/images/header_bg.png') repeat-x center -342px #fff;
@@ -8,10 +9,17 @@ body {
     float: right;
     width: 661px;
     margin-top: 15px;
+    background:url("http://geekhub.ck.ua/images/header_bg.png") repeat-x center -342px #fff;
 }
+
 
 tbody {
     vertical-align: top;
+    display: table-row-group;
+
+    padding: 24px 5px 24px 0;
+    border-top: 1px solid #D2DCE1;
+    cursor: pointer;
 }
 
 .site-header {
@@ -167,6 +175,10 @@ div#main-menu.navigation li a {
     display: block;
     padding: 48px 0 44px;
     font-size-adjust: 0.53;
+}
+
+div#main-menu.navigation li a:hover {
+    color: #e21d5d;
 }
 
 div#main-menu.navigation li a:active, .site-header #menu-geekhub li.current-menu-item a {
@@ -645,10 +657,11 @@ aside ul {
     color: #4C7687;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     position: relative;
     z-index: 2;
     margin-bottom: 15px;
+    border-bottom: 1px solid #D2DCE1;
+    padding: 28px 0 8px;
 }
 
 

@@ -157,6 +157,7 @@
             <?php endif; ?>
             <?php print render($page['content']); ?>
             <?php print $feed_icons; ?>
+
         </div>
 
 
@@ -186,6 +187,7 @@
                             ),
                         )); ?>
                     </div> <!-- /#main-menu -->
+
                 <?php endif; ?>
             </nav>
             <p>© Copyright 2011</p>

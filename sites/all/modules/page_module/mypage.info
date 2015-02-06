@@ -1,0 +1,5 @@
+name = MyPageModule
+description = The simple page module.
+core = 7.x
+files[] = mypage.module
+version = "7.x-2.1"
